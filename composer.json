@@ -1,5 +1,5 @@
 {
-  "name": "yarcode/yii2-email-manager",
+  "name": "frenzelgmbh/yii2-email-manager",
   "description": "Yii2 Email Manager",
   "license": "MIT",
   "keywords": [
@@ -22,6 +22,12 @@
       "email": "alexey.samoylov@gmail.com",
       "homepage": "http://yiiblog.ru",
       "role": "Developer"
+    },
+    {
+      "name": "Philipp Frenzel",
+      "email": "Philipp@Frenzel.net",
+      "homepage": "http://frenzel.net",
+      "role": "Developer"
     }
   ],
   "minimum-stability": "stable",
@@ -39,7 +45,7 @@
   },
   "autoload": {
     "psr-4": {
-      "yarcode\\email\\": "./src"
+      "net\\frenzel\\email\\": "./src"
     }
   }
 }

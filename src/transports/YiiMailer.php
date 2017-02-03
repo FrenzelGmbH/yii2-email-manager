@@ -4,7 +4,7 @@
  * @author Valentin Konusov <rlng-krsk@yandex.ru>
  */
 
-namespace yarcode\email\transports;
+namespace net\frenzel\email\transports;
 
 use yarcode\email\interfaces\TransportInterface;
 use yii\base\Component;

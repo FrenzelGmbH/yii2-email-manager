@@ -1,6 +1,6 @@
 <?php
 
-namespace yarcode\email\commands;
+namespace net\frenzel\email\commands;
 
 use React\EventLoop\Factory;
 use yii\console\Controller;

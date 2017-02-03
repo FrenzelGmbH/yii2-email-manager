@@ -4,7 +4,7 @@
  * @author Valentin Konusov <rlng-krsk@yandex.ru>
  */
 
-namespace yarcode\email;
+namespace net\frenzel\email;
 
 use yii\base\Component;
 use yii\base\InvalidConfigException;

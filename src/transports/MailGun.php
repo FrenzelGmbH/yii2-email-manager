@@ -4,7 +4,7 @@
  * @author Valentin Konusov <rlng-krsk@yandex.ru>
  */
 
-namespace yarcode\email\transports;
+namespace net\frenzel\email\transports;
 
 use Http\Adapter\Guzzle6\Client;
 use yarcode\email\interfaces\TransportInterface;

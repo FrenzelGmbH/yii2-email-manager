@@ -1,6 +1,6 @@
 <?php
 
-namespace yarcode\email\backend;
+namespace net\frenzel\email\backend;
 
 use yii\base\Module as BaseModule;
 
@@ -13,4 +13,15 @@ use yii\base\Module as BaseModule;
  */
 class Module extends BaseModule
 {
+    /**
+     * [init description]
+     * @return [type] [description]
+     */
+    public function init()
+    {
+        parent::init();
+        if ($this->userIdentityClass === null) {
+            $this->userIdentityClass = \Yii::$app->getUser()->identityClass;
+        }
+    }
 }

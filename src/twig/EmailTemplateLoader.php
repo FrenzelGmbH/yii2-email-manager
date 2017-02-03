@@ -4,7 +4,7 @@
  * @author Valentin Konusov <rlng-krsk@yandex.ru>
  */
 
-namespace yarcode\email\twig;
+namespace net\frenzel\email\twig;
 
 use yarcode\email\EmailManager;
 use yarcode\email\models\Template;

@@ -1,6 +1,6 @@
 <?php
 
-namespace yarcode\email\models;
+namespace net\frenzel\email\models;
 
 use baibaratsky\yii\behaviors\model\SerializedAttributes;
 use Yii;

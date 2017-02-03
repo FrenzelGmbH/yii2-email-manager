@@ -1,6 +1,6 @@
 <?php
 
-namespace yarcode\email\models;
+namespace net\frenzel\email\models;
 
 use yarcode\email\EmailManager;
 use yarcode\email\twig\EmailTemplateLoader;
