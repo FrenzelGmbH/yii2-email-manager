@@ -18,9 +18,9 @@ class EmailManager extends Component implements TransportInterface
     /** @var TransportInterface[] */
     public $transports = [];
     /** @var array Supported languages */
-    public $languages = ['en-US'];
+    public $languages = ['de-DE'];
     /** @var string */
-    public $defaultLanguage = 'en-US';
+    public $defaultLanguage = 'de-DE';
 
     /**
      * Singleton factory for obtaining manager instance
