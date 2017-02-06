@@ -5,8 +5,8 @@ namespace net\frenzel\email\commands;
 use React\EventLoop\Factory;
 use yii\console\Controller;
 use yii\db\Expression;
-use yarcode\email\EmailManager;
-use yarcode\email\models\Message;
+use net\frenzel\email\EmailManager;
+use net\frenzel\email\models\Message;
 
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
