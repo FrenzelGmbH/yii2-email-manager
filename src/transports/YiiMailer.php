@@ -6,7 +6,7 @@
 
 namespace net\frenzel\email\transports;
 
-use yarcode\email\interfaces\TransportInterface;
+use net\frenzel\email\interfaces\TransportInterface;
 use yii\base\Component;
 use yii\mail\MailerInterface;
 
