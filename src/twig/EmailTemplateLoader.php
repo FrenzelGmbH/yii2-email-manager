@@ -6,8 +6,8 @@
 
 namespace net\frenzel\email\twig;
 
-use yarcode\email\EmailManager;
-use yarcode\email\models\Template;
+use net\frenzel\email\EmailManager;
+use net\frenzel\email\models\Template;
 use yii\base\Component;
 use yii\helpers\ArrayHelper;
 
