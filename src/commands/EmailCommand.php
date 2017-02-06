@@ -97,7 +97,7 @@ class EmailCommand extends Controller
 
             $transaction->commit();
         } catch (\Exception $e) {
-            $transaction->rollback();
+            $transaction->rollBack();
             throw $e;
         }
 
@@ -122,7 +122,7 @@ class EmailCommand extends Controller
             $model->updateAttributes(['sentAt', 'status']);
             $transaction->commit();
         } catch (\Exception $e) {
-            $transaction->rollback();
+            $transaction->rollBack();
             throw $e;
         }
 
