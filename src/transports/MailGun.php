@@ -7,7 +7,7 @@
 namespace net\frenzel\email\transports;
 
 use Http\Adapter\Guzzle6\Client;
-use yarcode\email\interfaces\TransportInterface;
+use net\frenzel\email\interfaces\TransportInterface;
 use yii\base\Component;
 use yii\helpers\VarDumper;
 
