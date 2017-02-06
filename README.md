@@ -1,14 +1,28 @@
 # Email Module #
 
+Enhanced E-Mail Module based upon the original code from:
+
+yarcode/yii2-email-manager
+
+Had to adpopt a couple of things to use it within our projects. Feel free to participate;)
+
 ## Installation ##
+
+Add the following line to your composer.json require section:
+
+```
+"FrenzelGmbH/yii2-email-manager" : "*",
+```
+
+After this you have to modify your configuration files like:
 
 Simple configuration:
 
     'components' => [
         'emailManager' => [
-            'class' => '\yarcode\email\EmailManager',
+            'class' => '\net\frenzel\email\EmailManager',
             'transports' => [
-                'yiiMailer' => '\yarcode\email\transports\YiiMailer'
+                'yiiMailer' => '\net\frenzel\email\transports\YiiMailer'
             ],
         ],
     ]
@@ -17,16 +31,11 @@ Multi transport configuration:
 
     'components' => [
         'emailManager' => [
-            'class' => '\yarcode\email\EmailManager',
+            'class' => '\net\frenzel\email\EmailManager',
             'defaultTransport' => 'yiiMailer',
             'transports' => [
                 'yiiMailer' => [
-                    'class' => '\yarcode\email\transports\YiiMailer',
-                ],
-                'mailGun' => [
-                    'class' => '\yarcode\email\transports\MailGun',
-                    'apiKey' => 'xxx',
-                    'domain' => 'our-domain.net',
+                    'class' => '\net\frenzel\email\transports\YiiMailer',
                 ],
             ],
         ],
@@ -35,7 +44,7 @@ Multi transport configuration:
 Add command to the list of the available commands. Put it into console app configuration:
 
     'controllerMap' => [
-        'email' => '\yarcode\email\commands\EmailCommand',
+        'email' => '\net\frenzel\email\commands\EmailCommand',
     ],
 
 Add email sending daemon into crontab via lockrun or run-one utils:
