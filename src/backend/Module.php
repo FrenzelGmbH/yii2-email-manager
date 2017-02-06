@@ -28,5 +28,8 @@ class Module extends BaseModule
         if ($this->userIdentityClass === null) {
             $this->userIdentityClass = \Yii::$app->getUser()->identityClass;
         }
+        if (Yii::$app instanceof \yii\console\Application) {
+            $this->controllerNamespace = 'net\frenzel\email\backend\controllers';
+        }
     }
 }
