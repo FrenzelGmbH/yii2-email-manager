@@ -2,8 +2,8 @@
 
 namespace net\frenzel\email\models;
 
-use yarcode\email\EmailManager;
-use yarcode\email\twig\EmailTemplateLoader;
+use net\frenzel\email\EmailManager;
+use net\frenzel\email\twig\EmailTemplateLoader;
 use Yii;
 use yii\db\ActiveRecord;
 use yii\helpers\VarDumper;
