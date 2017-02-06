@@ -7,7 +7,7 @@ use yii\data\ActiveDataProvider;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yarcode\email\models\Template;
+use net\frenzel\email\models\Template;
 
 /**
  * @author Alexey Samoylov <alexey.samoylov@gmail.com>
