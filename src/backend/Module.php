@@ -14,6 +14,11 @@ use yii\base\Module as BaseModule;
 class Module extends BaseModule
 {
     /**
+    * @var User the user class which is used within the application framework
+    */
+    public $userIdentityClass = NULL;
+    
+    /**
      * [init description]
      * @return [type] [description]
      */
