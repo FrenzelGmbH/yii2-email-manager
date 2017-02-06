@@ -9,7 +9,7 @@ use yii\base\Module as BaseModule;
  * @author Valentin Konusov <rlng-krsk@yandex.ru>
  *
  * Class Module
- * @package yarcode\email\backend
+ * @package net\frenzel\email\backend
  */
 class Module extends BaseModule
 {
