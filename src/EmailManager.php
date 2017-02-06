@@ -8,8 +8,8 @@ namespace net\frenzel\email;
 
 use yii\base\Component;
 use yii\base\InvalidConfigException;
-use yarcode\email\interfaces\TransportInterface;
-use yarcode\email\models\Message;
+use net\frenzel\email\interfaces\TransportInterface;
+use net\frenzel\email\models\Message;
 
 class EmailManager extends Component implements TransportInterface
 {
